@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vanilla Challenge</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h1>Random Number Game</h1>
+    <div style="display: flex; align-items: center">
+      <h3>Generate a Number between 0 and <span class="maxNum"></span></h3>
+      <form class="gameForm">
+        <input class="rangeInput" type="range" min="0" max="50" />
+      </form>
+    </div>
+    <div style="display: flex; align-items: center" class="numBox">
+      Guess the number:
+      <form class="numForm">
+        <input class="inputNum" type="number" style="width: 200px" />
+        <button>play!</button>
+      </form>
+    </div>
+    <div class="paintChose"></div>
+    <h4 class="paintResult"></h4>
+    <script src="./index.js"></script>
+  </body>
+</html>
