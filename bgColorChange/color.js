@@ -27,6 +27,7 @@ function randBgColor() {
 
   if (bgColor01 === bgColor02) {
     return randBgColor();
+    // 두 컬러가 동일할 경우, 재귀함수를 사용해 다시 다른 컬러로 배치하도록 설정
   } else {
     document.body.style.background = `linear-gradient(to left, ${bgColor01}, ${bgColor02})`;
   }
