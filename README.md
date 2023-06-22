@@ -1,4 +1,7 @@
 # vanilla JS Study (-ing)
+### 바닐라JS 스터디 내용을 기록합니다.
+- 각 링크를 클릭하면 해당 설명에 대한 코드를 확인할 수 있습니다.
+- JS 코드 동작 구현에 대한 이해와 디벨롭 과정을 위해 기록합니다.
 ---
 ---
 ## Submission01 [https://codesandbox.io/s/day-three-blueprint-forked-33zlxf]
